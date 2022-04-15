@@ -1,0 +1,95 @@
+body{
+    font-family: Tahoma;
+    font-size: 24px;
+    color: #fff;
+    overflow: hidden;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    user-select: none;
+}
+#welcome {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    z-index: 49;
+    padding-top: 20%;
+}
+p {
+    text-align: center;
+}
+#field {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    border: 5px solid #fff;
+    box-sizing: border-box;
+}
+.ball {
+    border-radius: 50%;
+    position: absolute;
+    z-index: 25;
+}
+.food {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 20;
+}
+.mob {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 30;
+}
+#level, #points {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 20px;
+    z-index: 40;
+    cursor: default;
+}
+#level {
+    top: 15px;
+}
+#points {
+    top: 55px;
+}
+.button {
+    width: 120px;
+    height: 30px;
+    top: 20px;
+    padding: 10px 6px 6px 6px;
+    position: absolute;
+    cursor: pointer;
+    background-color: rgba(71, 71, 71, 0.6);
+    border-radius: 6px;
+    text-align: center;
+    font-size: 20px;
+    z-index: 50;
+}
+.button:hover {
+    background-color: rgba(99, 99, 99, 0.6);
+}
+.button:active {
+    background-color: rgba(128, 128, 128, 0.6);
+}
+#pause {
+    right: 20px;
+    display: none;
+}
+#newGameBtn {
+    right: 20px;
+}
